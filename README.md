@@ -40,4 +40,4 @@ A B C\
 1 2 6 4 5 3 7 9 8
 
 The sample input has two instances. The first instance corresponds to the graph on the left. The second instance corresponds to the graph on the right.
-![Sample Graphed]('README Sample Graphs.png'?raw=true)
+![Sample Graphed](SampleGraphs.png?raw=true)
