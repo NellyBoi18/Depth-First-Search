@@ -18,7 +18,7 @@ Note that 0 < B and C < a.
 For each instance, the names of nodes visited in depth-first traversal of the graph are printed, with ties between nodes visiting the first node in input order.
 
 # Sample:
-**Input:**
+**Input:**\
 2\
 3\
 A B\
@@ -34,3 +34,7 @@ C\
 7 3\
 8 9\
 9 1 8\
+
+**Output:**\
+A B C\
+1 2 6 4 5 3 7 9 8
