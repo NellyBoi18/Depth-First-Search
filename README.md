@@ -9,10 +9,10 @@ B, C, a
 Note that 0 < B and C < a.
 
 **Input constraints:**
-• 1 ≤ t ≤ 1000
-• 1 ≤ n ≤ 100
-• Strings only contain alphanumeric characters
-• Strings are guaranteed to be the names of the nodes in the graph.
+- 1 ≤ t ≤ 1000
+- 1 ≤ n ≤ 100
+- Strings only contain alphanumeric characters
+- Strings are guaranteed to be the names of the nodes in the graph.
 
 # Output: 
 For each instance, the names of nodes visited in depth-first traversal of the graph are printed, with ties between nodes visiting the first node in input order.
