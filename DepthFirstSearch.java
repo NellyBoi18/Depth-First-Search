@@ -9,9 +9,17 @@ public class DepthFirstSearch {
 
         Instances[] instances = new Instances[numInstances]; // Creating an array of objects based on input num of instances
 
-        int numNodes = in.nextInt(); // Reading user input of number of nodes
-        in.nextLine(); // Clearing \n
+        // Loop for number of instances
+        for (int x = 0; x < numInstances; x++) {
+            int numNodes = in.nextInt(); // Reading user input of number of nodes
+            in.nextLine(); // Clearing \n
 
-        
+            instances[x].numNodes = numNodes;
+            instances[x].Initialize();
+
+            for(int y = 0; y < numNodes; y++) {
+                instances[x].something();
+            }
+        }
     }
 }
